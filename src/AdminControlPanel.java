@@ -159,7 +159,6 @@ public class AdminControlPanel implements ActionListener {
         //creating new group to add to tree
         GroupUser newGroup = new GroupUser();
         newGroup.setID(id);
-        // System.out.println("GROUP VISITOR " + newGroup.accept(totals));
         gV = newGroup.accept(totals);
         panel.revalidate();
         panel.updateUI();
